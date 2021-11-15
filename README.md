@@ -5,6 +5,14 @@
 
 **Description of Data:** The main sources of our data will be the Spotify API and Kaggle datasets where we can get Apple's Data on music. Later on in the project, we may include other data sources from Musix Match's API for lyrics data and the Soundcloud API. 
 
+**Google Slides:**
+[google slides](https://docs.google.com/presentation/d/1QXlsqbagmJMQYZ5z3b8W8y9wzVafMxwwkMXmu04bmEA/edit?pli=1#slide=id.gcf872f65c5_0_135)
+
+**Dashboard:**
+[dashbord](https://public.tableau.com/app/profile/cffhr99/viz/Spotify_dashboard/Dashboard4)
+
+**StoryBoard**
+[StoryBoard](https://public.tableau.com/app/profile/cffhr99/viz/Spotify_overview/StoryBoard)
 **Sources of Data:**
 - Kaggle (Apple's API)
 - Spotify API
