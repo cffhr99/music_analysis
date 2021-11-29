@@ -21,14 +21,6 @@ The purpose of this project was to use Spotify data to understand what makes a s
 
 **Communication Protocols:** Communication within the team was done through Slack and Google Docs. 
 
-**Google Slides:**
-[google slides](https://docs.google.com/presentation/d/1QXlsqbagmJMQYZ5z3b8W8y9wzVafMxwwkMXmu04bmEA/edit?pli=1#slide=id.gcf872f65c5_0_135)
-
-**Dashboard:**
-[dashbord](https://public.tableau.com/app/profile/cffhr99/viz/Spotify_dashboard/Dashboard4)
-
-**StoryBoard**
-[StoryBoard](https://public.tableau.com/app/profile/cffhr99/viz/Spotify_overview/StoryBoard)
 **Sources of Data:**
 - Spotify API
 - Musix Match API
@@ -78,7 +70,6 @@ The predictor 'Mood' contained three different categories as 'Happy', 'Workout' 
 The first attempt was to train these three models directly by the initial dataset. Among these models, the best one was Random Forest with accuracy around 80%.  
 <!-- ![Confusion Matrix of Random Forest](https://github.com/gabalita/music_analysis/blob/Baiyang/image/Random_Forest_3.png?raw=true)   -->
 <img width="350" alt="ERD" src="https://github.com/gabalita/music_analysis/blob/Baiyang/image/Random_Forest_3.png?raw=true">
-
 
 To improve the machine learning model, two strategies were used to modify the initial dataset. The first one was to remove the feature 'Loudness' which was highly correlated with 'Energy'. In other words, these two variables represented the same character of a song. The second strategy was to balance the initial dataset. The percentages of each mood 'Happy', 'Workout' and 'Sad' were 12.6%, 21.9% and 65.5% respectively. It was obvious that 'Sad' occupied more proportion than others. A naive method to balance the proportion was to reduce the size of 'Sad'. But this idea was not suggested and it caused a much lower accuracy of machine learning models. Therefore, the way to keep balance was to combine 'Happy' and 'Workout' as one category since their songs had similar characters' performance.
 
